@@ -1,0 +1,22 @@
+body {
+	min-width: 320px;
+	position: relative;
+	font-family: "OpenSansRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+.navbar-brand {
+	padding: 0;
+	z-index: 999;
+	position: relative;
+}
+.main-head > .navbar {
+	margin-bottom: 0;
+}
+#myCarousel .h1 {
+	font-family: "OpenSansBold", sans-serif;
+	text-transform: 	none;	
+	font-size: 	38px;
+}

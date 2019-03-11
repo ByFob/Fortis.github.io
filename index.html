@@ -23,9 +23,7 @@
 	
 	<!-- Load CSS Compilled without JS -->
 	<noscript><link rel="stylesheet" href="compiled.min.css"></noscript>
-	<link rel="stylesheet" href="fonts.css">
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-
+	<link rel="stylesheet" href="_fonts.css">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -598,10 +596,10 @@
 		ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
 	}
 
-		loadCSS("header.css");              //Header Styles (compress & paste to header after release)
-		loadCSS("main.css");                //User Styles: Main
-		loadCSS("media.css");
-		loadCSS("fonts.css");				//User Styles: Media
+		loadCSS("_header.css");              //Header Styles (compress & paste to header after release)
+		loadCSS("_main.css");                //User Styles: Main
+		loadCSS("_media.css");
+		loadCSS("_fonts.css");				//User Styles: Media
 	</script>
 
 	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
@@ -613,6 +611,7 @@
 	<script>var scr = {"scripts":[
 	{"src" : "libs/modernizr/modernizr.js", "async" : false},
 	{"src" : "libs/jquery/jquery-1.11.2.min.js", "async" : false},
+	{"src" : "libs/waypoints/waypoints.min.js", "async" : false},
 	{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
 	{"src" : "libs/bootstrap/js/bootstrap.min.js", "async" : false},
 	{"src" : "js/common.js", "async" : false}
